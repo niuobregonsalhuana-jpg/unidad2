@@ -15,3 +15,9 @@ console.log(mainTexts[0].innerText);
 console.log(mainTexts[2].innerText);
 
 mainTexts[1].innerText="Lorem";
+
+console.log("SELECCIONAR POR ETIQUETA");
+
+let titles = document.getElementsByTagName("h2");
+console.log(titles);
+console.log(titles[2].innerText);
