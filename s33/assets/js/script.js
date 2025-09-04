@@ -21,3 +21,12 @@ console.log("SELECCIONAR POR ETIQUETA");
 let titles = document.getElementsByTagName("h2");
 console.log(titles);
 console.log(titles[2].innerText);
+
+console.log("SELECCIONAR POR SINTAXIS CSS - querySelector");
+
+let queryMainTitle = document.querySelector("#main-title");
+console.log(queryMainTitle);
+
+let queryMainTexts = document.querySelectorAll(".main-text");
+console.log(queryMainTexts);
+
